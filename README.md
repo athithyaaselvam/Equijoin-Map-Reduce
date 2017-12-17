@@ -2,8 +2,9 @@
 
 **A map-reduce program to perform equijoin.**
 
- The code is in Java (use Java 1.8.x) using HadoopFramework (use Hadoop 2.7.x).
- The code would take two inputs, one would be the HDFS location of the file on which the equijoin is performed and other would be the HDFS location of the file, where the output is stored.
+1. The code is in Java (use Java 1.8.x) using HadoopFramework (use Hadoop 2.7.x).
+
+2. The code would take two inputs, one would be the HDFS location of the file on which the equijoin is performed and other would be the HDFS location of the file, where the output is stored.
 
 **Format of the Input File: -**
   Table1Name, Table1JoinColumn, Table1Other Column1, Table1OtherColumn2, ……..
